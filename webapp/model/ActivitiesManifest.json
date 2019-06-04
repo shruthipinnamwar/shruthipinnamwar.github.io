@@ -1,0 +1,80 @@
+{
+	"sap.app": {
+		"type": "card"
+	},
+	"sap.card": {
+		"type": "List",
+		"header": {
+			"title": "Academic Project Work",
+			"subTitle": "These are the top Projects",
+			"icon": {
+				"src": "sap-icon://sales-order"
+			},
+			"status": {
+				"text": "4 of 20"
+			}
+		},
+		"content": {
+			"data": {
+				"json": [{
+						"Name": "SAPUI5 and Fiori:  MyInbox, Supplier Data, Manage Products, Inventory Dashboard",
+						"Description": "Configured ES5 system in my local machine and worked on Launchpad configurations and developed custom UI5 applications consuming services GWSAMPLE_BASIC, RMTSAMPLEFLIGHT etc.Configured Cloud Foundry and deployed SAPUI5 applications on cloud foundry at SAP Cloud Platform",
+						"Highlight": "Error",
+						"Icon": "sap-icon://education",
+						"HireDate": "May 2013"
+					},
+					{
+						"Name": "Propel Go -similar to Pokémon Go",
+						"Description": "Created an android application for Propel Department students at UMKC to help them gain enthusiasm to explore different areas in the campus by introducing them to augmented reality objects as part of the On-Campus activities. As part of Off-Campus activities, the student can answer feedback questions posted by the instructors, answer surveys from the application.",
+						"Highlight": "Warning",
+						"Icon": "sap-icon://open-folder",
+							"HireDate": "May 2013"
+					},
+					{
+						"Name": "HTTP REST Log Analysis (2018 UMKC Hackathon Project)",
+						"Description": "The purpose of this project was to analyze the REST logs of an application and generate detailed reports on HTTP responses and also predict the future responses using machine learning feature in Elasticsearch.",
+						"Highlight": "Success",
+						"Icon": "sap-icon://course-program",
+							"HireDate": "May 2013"
+					},
+					{
+						"Name": "Mycroft Mark-I Home Assistant Training (2019 UMKC Hackathon winner)",
+						"Description": "Trained Mark-I home assistant (like Amazon Alexa, Google Home) certain skills to assist in cooking, playing some ambient sounds and invoke the voice assistant to female voices (voice model training).",
+						"Highlight": "Information",
+						"Icon": "sap-icon://education",
+							"HireDate": "May 2017"
+					}
+				
+				]
+			},
+			
+			
+				  "item": {
+		"dateTime" : {
+		  "value": "{HireDate}"
+		},
+		"description" : {
+		  "value": "{Description}"
+		},
+		"title" : {
+		  "value": "{Name}"
+		},
+		"owner" : {
+		  "value": "{Name}"
+		},
+	
+		"icon": {
+		  "src": "{Icon}"
+		},
+		"highlight": "{Highlight}"
+	  }
+			
+			
+			
+			
+			
+			
+			
+		}
+	}
+}

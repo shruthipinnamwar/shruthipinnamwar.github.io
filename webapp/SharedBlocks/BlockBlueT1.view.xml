@@ -1,0 +1,125 @@
+<core:View xmlns="sap.suite.ui.commons" xmlns:core="sap.ui.core" controllerName="my.resume.Resume.controller.BlockT1" xmlns:m="sap.m"
+	xmlns:card="sap.f.cards" xmlns:f="sap.f" xmlns:w="sap.ui.integration.widgets" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<f:GridContainer class="sapUiSmallMargin">
+		<w:Card manifest="model/TeamMembersManifest.json">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData columns="4" rows = "5"/>
+			</w:layoutData>
+		</w:Card>
+		<!--<w:Card manifest="model/ActivitiesManifest.json">-->
+		<!--	<w:layoutData>-->
+		<!--		<f:GridContainerItemLayoutData rows="5" columns="7"/>-->
+		<!--	</w:layoutData>-->
+		<!--</w:Card>-->
+		<w:Card manifest="{manifests>/stackedBar}">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData rows="4" columns="5"/>
+			</w:layoutData>
+		</w:Card>
+		<w:Card manifest="{manifests>/donut1}">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData rows="4" columns="5"/>
+			</w:layoutData>
+		</w:Card>
+		
+		
+		
+		<w:Card manifest="model/ActivitiesManifest.json">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData rows="4" columns="10"/>
+			</w:layoutData>
+		</w:Card>
+			<w:Card manifest="{manifests>/donut1}">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData rows="3" columns="4"/>
+			</w:layoutData>
+		</w:Card>
+			<w:Card manifest="model/ActivitiesManifest.json">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData rows="5" columns="14"/>
+			</w:layoutData>
+			
+		</w:Card>
+		<!--<f:Card class="sapUiMediumMargin">-->
+		<!--	<f:header>-->
+		<!--		<card:Header title="Buy bus ticket on-line" subtitle="Buy a single drive ticket for a date" iconSrc="sap-icon://bus-public-transport"/>-->
+		<!--	</f:header>-->
+		<!--	<f:content>-->
+		<!--		<List-->
+		<!--		showSeparators="None"-->
+		<!--			>-->
+		<!--			<CustomListItem>-->
+		<!--				<HBox-->
+		<!--					 alignItems="Center"-->
+		<!--					justifyContent="SpaceBetween">-->
+		<!--					<VBox class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" >-->
+		<!--						<Title level="H3" text="title" />-->
+		<!--						<Text text="subtitle"/>-->
+		<!--					</VBox>-->
+		<!--					<tnt:InfoLabel-->
+		<!--						class="sapUiTinyMargin"-->
+		<!--						text="revenue"/>-->
+		<!--				</HBox>-->
+		<!--			</CustomListItem>-->
+		<!--		</List>-->
+		<!--	</f:content>-->
+		<!--</f:Card>-->
+	</f:GridContainer>
+	<!--<html:div style="height:auto;min-height:4em; background-color: #A9EAFF ;line-height: 4em;">-->
+	<!--	The title of the first section is not shown in the page but it is shown in the AnchorBar. Subsection titles are-->
+	<!--	displayed.-->
+	<!--</html:div>-->
+	<!--<Timeline height = "10em"-->
+	<!--id="idTimeline"-->
+	<!--	textHeight="100"-->
+	<!--	sortOldestFirst="true">-->
+	<!--<content>-->
+	<!--	<TimelineItem-->
+	<!--			userName="Laurent Dubois"-->
+	<!--			title="Accounts Payables Manager"-->
+	<!--			icon="sap-icon://activity-individual"-->
+	<!--			text="Plans, organizes and I put great attention to detail."-->
+	<!--			dateTime="Date(1371020400000)">-->
+	<!--		</TimelineItem>	-->
+	<!--		<TimelineItem-->
+	<!--			userName="Sabine Mayer"-->
+	<!--			title="Configuration Expert"-->
+	<!--			icon="sap-icon://settings"-->
+	<!--			text="Implementing to organizational e in mind."-->
+	<!--			dateTime="Date(1376290800000)">-->
+	<!--		</TimelineItem>-->
+	<!--</content>-->
+	<!--</Timeline>-->
+	<!--<f:content>-->
+	<!--	<VBox-->
+	<!--		height="115px"-->
+	<!--		class="sapUiSmallMargin"-->
+	<!--		justifyContent="SpaceBetween">-->
+	<!--		<HBox justifyContent="SpaceBetween">-->
+	<!--			<ComboBox-->
+	<!--				width="120px"-->
+	<!--				placeholder="From City"-->
+	<!--				items="{-->
+	<!--					path: '/cities',-->
+	<!--					sorter: { path: 'text' }-->
+	<!--				}">-->
+	<!--				<core:Item key="{key}" text="{text}" />-->
+	<!--			</ComboBox>-->
+	<!--			<ComboBox-->
+	<!--				width="120px"-->
+	<!--				placeholder="To City"-->
+	<!--				items="{-->
+	<!--					path: '/cities',-->
+	<!--					sorter: { path: 'text' }-->
+	<!--				}">-->
+	<!--				<core:Item key="{key}" text="{text}" />-->
+	<!--			</ComboBox>-->
+	<!--		</HBox>-->
+	<!--		<HBox justifyContent="SpaceBetween">-->
+	<!--			<DatePicker width="186px" placeholder="Choose Date ..."/>-->
+	<!--			<Button text="Book" press="onBookPress" type="Emphasized" />-->
+	<!--		</HBox>-->
+	<!--	</VBox>-->
+	<!--</f:content>-->
+</core:View>

@@ -1,11 +1,115 @@
-<mvc:View controllerName="my.resume.Resume.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-	<Shell id="shell">
-		<App id="app">
-			<pages>
-				<Page id="page" title="Resume Shruthi Pinnamwar">
-					<content></content>
-				</Page>
-			</pages>
-		</App>
-	</Shell>
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.uxap" xmlns:layout="sap.ui.layout" xmlns:m="sap.m" xmlns:f="sap.ui.layout.form" controllerName="my.resume.Resume.controller.View1">
+	<!--<sap.ui.core:Icon src="sap-icon://doctor" size="2em" xmlns:sap.ui.core="sap.ui.core" id="icon0"/>-->
+	<ObjectPageLayout xmlns:blockcolor="my.resume.Resume.SharedBlocks" id="ObjectPageLayout" enableLazyLoading="false" showTitleInHeaderContent="true" editHeaderButtonPress="handleEditBtnPress">
+		<headerTitle>
+			<ObjectPageHeader objectImageURI="img/shruthi.jpg" objectTitle="Shruthi Pinnamwar" objectImageShape="Square" objectImageAlt="Shruthi Pinnamwar" objectSubtitle="SAP UI5/ Fiori Consultant" isObjectIconAlwaysVisible="false" isObjectTitleAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false">
+				<!--actions>
+					<ObjectPageHeaderActionButton icon="sap-icon://pull-down" text="show section" type="Emphasized" tooltip="pull-down"/>
+					<ObjectPageHeaderActionButton icon="sap-icon://show" text="show state" tooltip="show"/>
+					<ObjectPageHeaderActionButton text="Toggle Footer" hideIcon="true" hideText="false" press="toggleFooter"/>
+				</actions>-->
+				<!--<breadcrumbs>
+					<m:Breadcrumbs id="breadcrumbsId" currentLocationText="Object Page Example" >
+						<m:Link text="Page 1 a very long link" press="handleLink1Press"/>
+						<m:Link text="Page 2 long link" press="handleLink2Press"/>
+					</m:Breadcrumbs>
+				</breadcrumbs>
+				<breadCrumbsLinks>
+					<m:Link id="breadCrumbLink1" text="Links in old aggregation" press="handleLink1Press"/>
+					<m:Link id="breadCrumbLink2" text="Don't appear in ObjectPageHeader" press="handleLink2Press"/>
+				</breadCrumbsLinks>-->
+			</ObjectPageHeader>
+		</headerTitle>
+		<headerContent>
+			<layout:VerticalLayout>
+				<m:Link text="913-742-1104" press="handleCallPress"/>
+				<m:Link text="shruthipinnamwar@gmail.com" press="handleEmailPress"/>
+				<m:Text text="Overland Park,Kansas"/>
+			</layout:VerticalLayout>
+			<layout:HorizontalLayout>
+				<layout:VerticalLayout>
+				<m:Image src="img/linkdin.png" press="handleLinkedinPress" width="7em"/>
+				<m:Image src="img/github.jpg" press="handleGitHubPress" width="6em"/>
+				</layout:VerticalLayout>
+				<!--<m:Image src="./test-resources/sap/uxap/images/Twitter.png"/>-->
+			</layout:HorizontalLayout>
+			<!--<layout:VerticalLayout>-->
+			<!--<m:Label text="Hello! I am Tim and I use UxAP"/>-->
+			<layout:VerticalLayout>
+				<f:SimpleForm id="SimpleFormDisplay2" editable="false" title="Strengths">
+					<f:content>
+						
+						<m:Text text="Self Starter "/>
+						<m:Text text="Quick Learner "/>
+						<m:Text text="Adaptable "/>
+					</f:content>
+				</f:SimpleForm>
+			
+			</layout:VerticalLayout>
+				<!--<layout:VerticalLayout>-->
+				<!--	<m:Text text="Certifications"/>-->
+				<!--	<m:HBox>-->
+				<!--		<sap.ui.core:Icon xmlns:sap.ui.core="sap.ui.core" src="sap-icon://approvals" ariaLabelledBy="home" size="2em" alt="home" id="icon0"/>-->
+				<!--		<m:Text text="Introduction to SAP Fiori UX"/>-->
+						
+				<!--		</m:HBox>-->
+				<!--	</layout:VerticalLayout>-->
+			<layout:VerticalLayout>
+				<m:HBox>
+			
+				<!--<m:Text text=" "/>-->
+				<!--<m:Text text="    Address" width = "5em"/>-->
+				</m:HBox>
+				<!--<m:Text text = "Address" />-->
+				<f:SimpleForm id="SimpleFormDisplay3" editable="false" title="Address">
+					<f:content>
+						<m:Text text="9812 w 118th st "/>
+						<m:Text text="Apt 5, Overland Park"/>
+						<m:Text text="Kansas, 66210 "/>
+					</f:content>
+				</f:SimpleForm>
+			</layout:VerticalLayout>
+			<layout:VerticalLayout>
+				<f:SimpleForm id="SimpleFormDisplay354" editable="false" title="Languages Known">
+					<f:content>
+						<m:Label text="English " labelFor="RI_default"/>
+						<m:RatingIndicator id="RI_default" maxValue="5" class="sapUiSmallMarginBottom" iconSize="16px" value="4.5" tooltip="Rating Tooltip"/>
+					</f:content>
+				</f:SimpleForm>
+			</layout:VerticalLayout>
+			<!--</layout:VerticalLayout>-->
+			<layout:VerticalLayout>
+				<m:Text wrappingType="Hyphenated" text="Innovative software engineer with over 3 years of experience in developing SAP
+				Mobility Enterprise applications (SAPUI5, Fiori, SAP NetWeaver Gateway) to simplify the user
+				experience for SAP applications using modern design principles, to meet the changing business 
+				requirements of the modern world"/>
+			</layout:VerticalLayout>
+		</headerContent>
+		<!--SEctions-->
+		
+		<sections>
+			<ObjectPageSection >
+				<!--<subSections>-->
+					<ObjectPageSubSection>
+						<blocks>
+							<blockcolor:BlockBlueT1 id="bbt1"/>
+						</blocks>
+					</ObjectPageSubSection>
+					
+					
+					<!--	<ObjectPageSubSection title="Subsection 1.1 ">-->
+					<!--	<blocks>-->
+					<!--		<blockcolor:BlockBlueT1 id="bbt2"/>-->
+					<!--	</blocks>-->
+					<!--</ObjectPageSubSection>-->
+					
+				<!--</subSections>-->
+			</ObjectPageSection>
+	</sections>
+			
+		
+		
+		
+	</ObjectPageLayout>
+	
 </mvc:View>
