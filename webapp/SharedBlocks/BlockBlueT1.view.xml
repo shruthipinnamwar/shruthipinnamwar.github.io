@@ -122,4 +122,44 @@
 	<!--		</HBox>-->
 	<!--	</VBox>-->
 	<!--</f:content>-->
+	
+	
+	
+	
+	
+	
+	<!--
+	
+{
+  "name": "Resume",
+  "version": "0.0.1",
+  "description": "My Resume in SAPUI5",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "local.js",
+  "scripts": {
+    "start": "node local.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shruthipinnamwar/shruthipinnamwar.github.io"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
+	-->
+	
 </core:View>
