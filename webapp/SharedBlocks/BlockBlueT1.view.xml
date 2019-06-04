@@ -162,4 +162,34 @@
 }
 	-->
 	
+	
+<!--	{-->
+<!--  "name": "Resume",-->
+<!--  "version": "0.0.1",-->
+<!--  "description": "My Resume in SAPUI5",-->
+<!--  "engines": {-->
+<!--    "node": "8.9.1"-->
+<!--  },-->
+<!--  "private": true,-->
+<!--  "devDependencies": {-->
+<!--    "request": "^2.81.0",-->
+<!--    "tape": "^4.7.0"-->
+<!--    "@sap/grunt-sapui5-bestpractice-build": "1.3.65",-->
+<!--    "@sap/grunt-sapui5-bestpractice-test": "2.0.1"-->
+<!--  },-->
+<!--  "repository": {-->
+<!--    "type": "git",-->
+<!--    "url": "https://github.com/shruthipinnamwar/shruthipinnamwar.github.io"-->
+<!--  },-->
+<!--  "main": "local.js",-->
+<!--  "scripts": {-->
+    
+<!--    "start": "node local.js"-->
+<!--  }-->
+<!--}-->
+	
+	
+	
+	
+	
 </core:View>

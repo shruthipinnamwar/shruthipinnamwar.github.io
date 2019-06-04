@@ -7,8 +7,8 @@
   },
   "private": true,
   "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
+    "@sap/grunt-sapui5-bestpractice-build": "1.3.65",
+    "@sap/grunt-sapui5-bestpractice-test": "2.0.1"
   },
   "repository": {
     "type": "git",
