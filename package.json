@@ -7,7 +7,12 @@
   },
   "private": true,
   "devDependencies": {
-    
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shruthipinnamwar/shruthipinnamwar.github.io"
   },
   "main": "local.js",
   "scripts": {
