@@ -79,7 +79,7 @@
 			</layout:VerticalLayout>
 			<!--</layout:VerticalLayout>-->
 			<layout:VerticalLayout>
-				<m:Text wrappingType="Hyphenated" text="Innovative software engineer with over 3 years of experience in developing SAP
+				<m:Text wrappingType="Hyphenated" text="Innovative software engineer with over 5 years of experience in developing SAP
 				Mobility Enterprise applications (SAPUI5, Fiori, SAP NetWeaver Gateway) to simplify the user
 				experience for SAP applications using modern design principles, to meet the changing business 
 				requirements of the modern world"/>
